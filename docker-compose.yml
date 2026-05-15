@@ -1,0 +1,5 @@
+# Run from repo root: docker compose up --build
+# Equivalent to: docker compose -f infrastructure/docker-compose.yml up --build
+
+include:
+  - path: ./infrastructure/docker-compose.yml
